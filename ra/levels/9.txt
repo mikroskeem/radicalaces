@@ -1,0 +1,32 @@
+tank(22)
+l(4000,-10,4000)
+name(Matlos Tank 1)
+stat(70,9)
+
+tank(23)
+l(4000,-10,2500)
+name(Matlos Tank 2)
+stat(70,9)
+
+tank(24)
+l(4000,-10,1000)
+name(Matlos Tank 3)
+stat(70,9)
+
+tank(25)
+l(4000,-10,-1000)
+name(Matlos Tank 4)
+stat(70,9)
+
+tank(26)
+l(4000,-10,-2500)
+name(Matlos Tank 5)
+stat(70,9)
+
+tank(27)
+l(4000,-10,-4000)
+name(Matlos Tank 6)
+stat(70,9)
+
+prompt(tank,25,     5 - Matlos tanks 3 o'clock)
+

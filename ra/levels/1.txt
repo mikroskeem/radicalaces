@@ -1,0 +1,18 @@
+
+
+craft(10)
+l(-4000,0,0)
+name(E-Dacos 1)
+stat(80,6,20,30,800,0)
+
+craft(11)
+l(-4000,-500,0)
+name(E-Dacos 2)
+stat(80,6,20,30,500,0)
+
+craft(12)
+l(-3900,-500,0)
+name(E-Dacos 3)
+stat(80,6,20,40,500,0)
+
+prompt(craft,10,    3 - E-Dacos 9 o'clock)

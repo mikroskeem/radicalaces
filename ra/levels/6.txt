@@ -1,0 +1,29 @@
+craft(17)
+l(-300,-1000,4000)
+name(Contras Ghost 1)
+stat(90,8,50,50,2000,1)
+
+craft(18)
+l(-500,-1000,4000)
+name(Contras Ghost 2)
+stat(90,8,50,200,2000,1)
+
+
+craft(19)
+l(-700,-1000,4000)
+name(Contras Ghost 3)
+stat(90,8,50,200,1000,0)
+
+craft(20)
+l(-900,-1000,4000)
+name(Contras Ghost 4)
+stat(90,8,30,10,1000,0)
+
+craft(21)
+l(-1100,-1000,4000)
+name(Contras Ghost 5)
+stat(90,8,30,10,1000,0)
+
+prompt(craft,20,    5 - Contras Ghosts 12 o'clock)
+
+

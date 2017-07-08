@@ -1,0 +1,29 @@
+
+
+tank(5)
+l(-700,-10,4000)
+name(Zonich Tank 1)
+stat(50,5)
+
+tank(6)
+l(-600,-10,4000)
+name(Zonich Tank 2)
+stat(50,5)
+
+tank(7)
+l(-700,-10,-4000)
+name(Zonich Tank 3)
+stat(50,5)
+
+tank(8)
+l(-600,-10,-4000)
+name(Zonich Tank 4)
+stat(50,5)
+
+tank(9)
+l(-650,-10,-3950)
+name(Zonich Tank 5)
+stat(50,5)
+
+prompt(tank,5,     5 - Zonich tanks 11 and 7 o'clock)
+

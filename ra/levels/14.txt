@@ -1,0 +1,46 @@
+craft(28)
+l(4000,200,100)
+name(Deamoz Monster 1)
+stat(100,10,0,10,2000,1)
+
+craft(29)
+l(4000,200,-100)
+name(Deamoz Monster 2)
+stat(100,10,0,10,2000,1)
+
+craft(30)
+l(-4000,200,300)
+name(Deamoz Monster 3)
+stat(90,10,100,100,2000,1)
+
+craft(31)
+l(-4000,200,-300)
+name(Deamoz Monster 4)
+stat(90,10,100,100,2000,1)
+
+//
+
+craft(17)
+l(-4000,200,100)
+name(Contras Ghost 1)
+stat(90,8,50,30,2000,1)
+
+craft(18)
+l(-4000,200,-100)
+name(Contras Ghost 2)
+stat(90,8,50,30,2000,1)
+
+craft(19)
+l(4000,200,-300)
+name(Contras Ghost 3)
+stat(100,8,50,30,2000,1)
+
+craft(20)
+l(4000,200,300)
+name(Contras Ghost 4)
+stat(100,8,50,30,2000,1)
+
+
+prompt(craft,28,    4 - Deamoz Monsters 3 and 9 o'clock)
+prompt(craft,20,    4 - Contras Ghosts 3 and 9 o'clock)
+

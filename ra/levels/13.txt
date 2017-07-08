@@ -1,0 +1,36 @@
+craft(28)
+l(-1150,-1000,-4000)
+name(Deamoz Monster 1)
+stat(100,10,100,10,2000,1)
+
+craft(29)
+l(-850,-1000,-4000)
+name(Deamoz Monster 2)
+stat(100,10,100,10,2000,1)
+
+craft(30)
+l(-550,-1000,-4000)
+name(Deamoz Monster 3)
+stat(100,10,10,100,2000,1)
+
+
+
+
+tank(23)
+l(-850,0,-4000)
+name(Maltos Tank 1)
+stat(60,9)
+
+tank(24)
+l(-550,0,-4000)
+name(Maltos Tank 2)
+stat(60,9)
+
+tank(25)
+l(-250,0,-4000)
+name(Maltos Tank 3)
+stat(60,9)
+
+prompt(craft,28,    3 - Deamoz Monsters 6 o'clock)
+prompt(tank,23,     3 - Matlos Tanks 6 o'clock)
+

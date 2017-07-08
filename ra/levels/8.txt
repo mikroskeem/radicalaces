@@ -1,0 +1,48 @@
+craft(17)
+l(0,-2500,0)
+name(Contras Ghost 1)
+stat(100,8,20,30,1000,1)
+
+craft(13)
+l(800,-2500,800)
+name(Festa Worm 1)
+stat(60,7,200,30,2000,0)
+
+craft(14)
+l(-800,-2500,800)
+name(Festa Worm 2)
+stat(60,7,200,30,2000,0)
+
+craft(15)
+l(800,-2500,-800)
+name(Festa Worm 3)
+stat(60,7,200,30,2000,0)
+
+craft(16)
+l(-800,-2500,-800)
+name(Festa Worm 4)
+stat(60,7,200,30,2000,0)
+
+craft(18)
+l(1600,-2500,1600)
+name(Contras Ghost 2)
+stat(100,8,20,30,1000,1)
+
+craft(19)
+l(1600,-2500,-1600)
+name(Contras Ghost 3)
+stat(100,8,20,30,1000,1)
+
+craft(20)
+l(-1600,-2500,1600)
+name(Contras Ghost 4)
+stat(100,8,20,30,1000,1)
+
+craft(21)
+l(-1600,-2500,-1600)
+name(Contras Ghost 5)
+stat(100,8,20,30,1000,1)
+
+
+prompt(craft,20,    5 - Contras Ghosts 12 and 6 o'clock)
+prompt(craft,14,    4 - Festa Worms 12 and 6 o'clock)

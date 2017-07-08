@@ -1,0 +1,38 @@
+craft(18)
+l(-3000,500,-4000)
+name(Contras Ghost 2)
+stat(76,8,20,10,500,1)
+
+craft(19)
+l(-2000,500,-4000)
+name(Contras Ghost 2)
+stat(76,8,20,10,500,1)
+
+craft(20)
+l(-1000,500,-4000)
+name(Contras Ghost 2)
+stat(76,8,20,10,500,1)
+
+tank(22)
+l(-200,-1000,0)
+name(Matlos Tank 1)
+stat(0,9)
+
+tank(23)
+l(-1200,-1000,0)
+name(Matlos Tank 2)
+stat(0,9)
+
+tank(24)
+l(-700,-1000,400)
+name(Matlos Tank 3)
+stat(0,9)
+
+tank(25)
+l(-700,-1000,-500)
+name(Matlos Tank 4)
+stat(0,9)
+
+prompt(craft,20,    3 - Contras Ghosts 8 o'clock)
+prompt(tank,22,     4 - Matlos Tanks 3 o'clock)
+

@@ -1,0 +1,7 @@
+craft(32)
+l(300,-500,4000)
+name(Hogarejos Boss)
+stat(120,11,100,10,2000,1)
+
+prompt(craft,32,    The Hogarejos - The boss 12 o'clock)
+
