@@ -1,0 +1,22 @@
+// Plugins
+plugins {
+    id "java"
+}
+
+// Jar task
+jar {
+    manifest {
+        attributes(
+                "Main-Class": "eu.mikroskeem.radicalaces.Bootstrap"
+        )
+    }
+}
+
+// Wrapper task
+task wrapper(type: Wrapper) {
+    gradleVersion = gradle_version
+    distributionUrl = "https://services.gradle.org/distributions/gradle-$gradleVersion-all.zip"
+}
+
+// Default tasks
+defaultTasks 'build'
