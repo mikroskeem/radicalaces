@@ -6,10 +6,13 @@ import java.applet.AudioClip;
 import java.awt.*;
 import java.io.IOException;
 import java.io.InputStream;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
 import java.net.URL;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.function.Function;
 
 public class SimpleAppletContext implements AppletContext {
     private final HashMap<URL, AudioClip> audioclips = new HashMap<>();
@@ -18,7 +21,7 @@ public class SimpleAppletContext implements AppletContext {
 
     @Override
     public AudioClip getAudioClip(URL url) {
-        return audioclips.computeIfAbsent(url, key-> new sun.applet.AppletAudioClip(url));
+        return audioclips.computeIfAbsent(url, createAudioClip);
     }
 
     @Override
@@ -50,4 +53,42 @@ public class SimpleAppletContext implements AppletContext {
     @Override public Enumeration<Applet> getApplets() { return null; }
     @Override public void showDocument(URL url) {}
     @Override public void showDocument(URL url, String target) {}
+
+    private static Function<URL, AudioClip> createAudioClip;
+
+    private static <T> T construct(Constructor<T> constructor, Object... args) {
+        try {
+            return constructor.newInstance(args);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    @SuppressWarnings("unchecked")
+    private static <T> T invoke(Method method, Object instance, Object... args) {
+        try {
+            return (T) method.invoke(instance, args);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    static {
+        try {
+            Class <?> jsac = Class.forName("com.sun.media.sound.JavaSoundAudioClip");
+            Method createAc = jsac.getMethod("create", URL.class);
+
+            createAudioClip = url -> invoke(createAc, null, url);
+        } catch (Exception e) {
+            // Try older API
+            try {
+                Class <?> aac = Class.forName("sun.applet.AppletAudioClip");
+                Constructor<?> aacCtor = aac.getConstructor(URL.class);
+
+                createAudioClip = url -> construct((Constructor<AudioClip>) aacCtor, url);
+            } catch (Exception e2) {
+                System.err.println("Failed to find a suitable way to create " + AudioClip.class + " instances!");
+            }
+        }
+    }
 }
