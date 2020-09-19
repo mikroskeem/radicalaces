@@ -1,0 +1,38 @@
+craft(13)
+l(-4000,-100,-4000)
+name(Festa Worm 1)
+stat(80,7,200,200,1000,0)
+
+craft(14)
+l(-4000,-100,4000)
+name(Festa Worm 2)
+stat(100,7,200,200,2000,1)
+
+craft(15)
+l(4000,-100,4000)
+name(Festa Worm 4)
+stat(100,7,200,200,2000,1)
+
+craft(16)
+l(4000,-100,-4000)
+name(Festa Worm 3)
+stat(80,7,200,200,1000,0)
+
+craft(10)
+l(300,-2500,0)
+name(E-Dacos 1)
+stat(100,6,10,10,2000,1)
+
+craft(11)
+l(300,-2000,0)
+name(E-Dacos 2)
+stat(80,6,10,10,500,1)
+
+craft(12)
+l(300,-1500,0)
+name(E-Dacos 3)
+stat(80,6,10,10,500,1)
+
+prompt(craft,14,       4 - Festa Worms 10| 2| 5 and 7 o'clock)
+prompt(craft,10,    3 - E-Dacos 9 o'clock)
+

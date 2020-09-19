@@ -1,0 +1,21 @@
+craft(13)
+l(-530,-2500,-88)
+name(Festa Worm 1)
+stat(80,7,50,20,1000,0)
+
+craft(14)
+l(-680,-2500,-238)
+name(Festa Worm 2)
+stat(80,7,50,20,1000,1)
+
+craft(15)
+l(-830,-2500,-88)
+name(Festa Worm 4)
+stat(80,7,50,40,1000,1)
+
+craft(16)
+l(-680,-2500,62)
+name(Festa Worm 3)
+stat(80,7,50,40,1000,0)
+
+prompt(craft,14,    4 - Festa Worms 3 o'clock)

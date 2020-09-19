@@ -1,0 +1,23 @@
+craft(28)
+l(4000,-2500,4000)
+name(Deamoz Monster 1)
+stat(90,10,50,50,2000,1)
+
+craft(29)
+l(4000,-2000,4000)
+name(Deamoz Monster 2)
+stat(90,10,50,10,2000,1)
+
+craft(30)
+l(4000,-1500,4000)
+name(Deamoz Monster 3)
+stat(90,10,50,10,1000,1)
+
+craft(31)
+l(4000,-1000,4000)
+name(Deamoz Monster 4)
+stat(90,10,50,30,1000,1)
+
+prompt(craft,28,    4 - Deamoz Monsters 1 o'clock)
+
+

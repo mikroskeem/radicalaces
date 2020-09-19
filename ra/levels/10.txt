@@ -1,0 +1,7 @@
+tank(22)
+l(4000,-10,4000)
+name(Matlos Tank 1)
+stat(200,9)
+
+prompt(tank,22,     1 - Matlos tank MOVING FAST!)
+

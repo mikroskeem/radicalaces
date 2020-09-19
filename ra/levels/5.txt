@@ -1,0 +1,56 @@
+craft(13)
+l(-4000,-2500,-4000)
+name(Festa Worm 1)
+stat(90,7,200,10,2000,1)
+
+craft(14)
+l(-4000,-2000,-4000)
+name(Festa Worm 2)
+stat(90,7,200,10,2000,1)
+
+craft(15)
+l(-4000,-1500,-4000)
+name(Festa Worm 3)
+stat(90,7,200,200,2000,1)
+
+
+craft(10)
+l(4000,-2500,4000)
+name(E-Dacos 1)
+stat(90,6,200,10,1000,1)
+
+craft(11)
+l(4000,-2000,4000)
+name(E-Dacos 2)
+stat(90,6,200,10,1000,1)
+
+craft(12)
+l(4000,-1500,4000)
+name(E-Dacos 3)
+stat(90,6,200,200,1000,1)
+
+
+tank(6)
+l(-500,-10,-4000)
+name(Zonich Tank 1)
+stat(70,5)
+
+tank(7)
+l(-700,-10,-4000)
+name(Zonich Tank 2)
+stat(70,5)
+
+tank(8)
+l(-600,-10,-4000)
+name(Zonich Tank 3)
+stat(70,5)
+
+tank(9)
+l(-600,-10,-3950)
+name(Zonich Tank 4)
+stat(70,5)
+
+prompt(craft,14,    3 - Festa Worms 5 o'clock)
+prompt(tank,7,    4 - Zonich tanks 7 o'clock)
+prompt(craft,10,    3 - E-Dacos 11 o'clock)
+

@@ -1,0 +1,45 @@
+craft(17)
+l(-4000,200,-800)
+name(Contras Ghost 1)
+stat(70,8,20,30,1000,1)
+
+craft(18)
+l(-4000,200,-400)
+name(Contras Ghost 2)
+stat(70,8,20,30,1000,1)
+
+
+craft(19)
+l(-4000,200,0)
+name(Contras Ghost 3)
+stat(70,8,20,30,1000,1)
+
+craft(20)
+l(-4000,200,400)
+name(Contras Ghost 4)
+stat(70,8,20,30,1000,1)
+
+craft(21)
+l(-4000,200,800)
+name(Contras Ghost 5)
+stat(70,8,20,30,1000,1)
+
+craft(10)
+l(-3000,-2500,-400)
+name(E-Dacos 1)
+stat(100,6,30,10,2000,1)
+
+craft(11)
+l(-3000,-2500,0)
+name(E-Dacos 2)
+stat(100,6,30,10,2000,1)
+
+craft(12)
+l(-3000,-2500,400)
+name(E-Dacos 3)
+stat(100,6,30,10,2000,1)
+
+
+prompt(craft,20,    5 - Contras Ghosts 9 o'clock)
+prompt(craft,10,    3 - E-Dacos 9 o'clock)
+
