@@ -32,6 +32,11 @@ val compileJava by tasks.getting(JavaCompile::class) {
     }
 }
 
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
 val jar by tasks.getting(Jar::class) {
     manifest {
         attributes(
